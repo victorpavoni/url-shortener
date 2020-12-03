@@ -1,0 +1,14 @@
+GET http://localhost:5000/
+
+###
+
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+  "fullUrl": "https://github.com/"
+}
+
+###
+
+GET http://localhost:5000/yg6GhkWQG
